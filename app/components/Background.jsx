@@ -1,15 +1,15 @@
 import Wave from 'react-wavify'
 
 const Background = () => (
-    <div className = "fixed bottom-0 left-0 w-full overflow-hidden z-[-1] h-120">
+    <div className = "fixed bottom-0 left-0 w-full overflow-hidden z-[-1] h-110">
   <Wave fill="url(#gradient)"
        paused={false}
         style={{ display: 'flex', height: '500px'}}
         options={{
           height: 10,
-          amplitude: 15,
-          speed: 0.175,
-          points: 2
+          amplitude: 20,
+          speed: 0.25,
+          points: 3
         }}>
   <defs>
     <linearGradient id="gradient" gradientTransform="rotate(90)">
