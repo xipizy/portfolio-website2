@@ -1,4 +1,4 @@
-import Wave from 'react-wavify'
+import Wave from 'react-wavify';
 
 const Background = () => (
     <div className = "fixed bottom-0 left-0 w-full overflow-hidden z-[-1] h-110">
