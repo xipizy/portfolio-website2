@@ -1,11 +1,11 @@
 import Background from "./components/Background";
-import Mainwindow from "./components/Mainwindow";
+import CardManager from "./components/CardManager";
 
 export default function Home() {
   return (
     <>
     <Background/>
-    <Mainwindow/>
+    <CardManager/>
     </>
   );
 }
