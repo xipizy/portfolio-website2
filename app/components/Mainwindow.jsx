@@ -6,9 +6,9 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 library.add(fas, far, fab)
 
-import folder from '../images/folder.png';
-import links from '../images/links.png';
-import person from '../images/person.png';
+import folder from '../images/folder_filled.png';
+import links from '../images/link.png';
+import aboutMe from '../images/account_circle.png';
 function Mainwindow() {
     return(
         <div className="mockup-browser bg-base-200 border border-white outline-2 rounded-xl w-175 h-150 mx-auto top-90">
@@ -28,13 +28,13 @@ function Mainwindow() {
                 </div>
                 <div className='flex flex-row'>
                     <button className="cursor-pointer">
-                        <FontAwesomeIcon icon="fa-solid fa-circle-user" size="5x" className="text-black"/>
+                        <Image src={aboutMe} draggable='false' alt='avatarIamge'></Image>
                     </button>
                     <button className="cursor-pointer">
-                        <Image src={folder} alt="folderImage"/>
+                        <Image src={folder} draggable='false' alt="folderImage"/>
                     </button>
                     <button className="cursor-pointer">
-                        <Image src={links} alt="linksImage"></Image>
+                        <Image src={links} draggable='false' alt="linksImage"></Image>
                     </button>
                 </div>
             </div>
