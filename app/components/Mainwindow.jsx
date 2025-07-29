@@ -26,16 +26,28 @@ function Mainwindow() {
                     <h1 className="text-7xl pt-40 font-bold">ELOON ING</h1>
                     <h1 className="pl-1 text-lg">Software Engineer</h1>
                 </div>
-                <div className='flex flex-row'>
-                    <button className="cursor-pointer">
-                        <Image src={aboutMe} draggable='false' alt='avatarIamge'></Image>
-                    </button>
-                    <button className="cursor-pointer">
-                        <Image src={folder} draggable='false' alt="folderImage"/>
-                    </button>
-                    <button className="cursor-pointer">
-                        <Image src={links} draggable='false' alt="linksImage"></Image>
-                    </button>
+                <div className='flex flex-col items-center'>
+                    <div className='flex flex-row pt-12 gap-5'>
+                        <div className='flex flex-col items-center'>
+                            <button className="cursor-pointer">
+                                <Image src={aboutMe} draggable='false' alt='avatarIamge'/>
+                                <span className='text-2xl'>About</span>
+                            </button>
+                        </div>
+                        <div className='flex flex-col items-center'>
+                            <button className="cursor-pointer">
+                                <Image src={folder} draggable='false' alt="folderImage"/>
+                                <span className='text-2xl'>Projects</span>
+                            </button>
+                        </div>
+                        <div className='flex flex-col items-center'>
+                            <button className="cursor-pointer">
+                                <Image src={links} draggable='false' alt="linksImage"/>
+                                <span className='text-2xl'>Links</span>
+                            </button>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
