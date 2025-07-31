@@ -1,5 +1,4 @@
 'use client';
-import AboutMe from "../buttons/AboutMe";
 import AboutMeWindow from "./AboutMeWindow";
 import MainWindow from "./Mainwindow";
 import {use, useState} from 'react';

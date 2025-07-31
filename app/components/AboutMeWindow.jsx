@@ -1,11 +1,11 @@
 import Return from "../buttons/Return"
 
-function AboutMeWindow({isDisabled}) {
+function AboutMeWindow({onToggleDisable, onToggleAbout}) {
     return(
             <div className="mockup-browser bg-base-200 border border-white outline-2 rounded-xl w-175 h-150 mx-auto top-90">
                 <div className="flex items-center px-4 py-2 border-b border-white relative bg-black">
                     <div className="flex space-x-2">
-                        <Return/>
+                        <Return onToggleDisable={onToggleDisable} onToggleUniversal={onToggleAbout}/>
                         <button className="w-3 h-3 rounded-full bg-gray-500"/>
                         <button className="w-3 h-3 rounded-full bg-gray-500"/>
                     </div>
