@@ -1,18 +1,26 @@
 'use client';
+import AboutMe from "../buttons/AboutMe";
+import AboutMeWindow from "./AboutMeWindow";
 import MainWindow from "./Mainwindow";
 import {use, useState} from 'react';
 
 function CardManager() {
 
     const [mainWindowDisabled, setMainWindowDisabled] = useState(false);
+    const [aboutMeWindowDisabled, setAboutMeWindowDisabled] = useState(true);
 
     function updateMainWindow() {
         setMainWindowDisabled(prev => !prev);
     }
 
+    function updateAboutMeWindow() {
+        setAboutMeWindowDisabled(prev => !prev);
+    }
+
     return(
         <div >
-            <MainWindow onToggleDisable={updateMainWindow} isDisabled={mainWindowDisabled}/>
+            {mainWindowDisabled ? null : <MainWindow onToggleDisable={updateMainWindow} onToggleAbout={updateAboutMeWindow}/>}
+            {aboutMeWindowDisabled ? null : <AboutMeWindow onToggleDisable={updateAboutMeWindow} onToggleAbout={updateMainWindow}/>}
         </div>
     )
 }

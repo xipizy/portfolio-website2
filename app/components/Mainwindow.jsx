@@ -9,9 +9,8 @@
 import AboutMe from '../buttons/AboutMe'
 import Projects from '../buttons/Projects'
 import Links from '../buttons/Links'
-function Mainwindow({onToggleDisable, isDisabled}) {
+function Mainwindow({onToggleDisable, onToggleAbout}) {
     return(
-        <div className={`${isDisabled ? 'opacity-0 pointer-events-none' : ''}`}>
             <div className="mockup-browser bg-base-200 border border-white outline-2 rounded-xl w-175 h-150 mx-auto top-90">
                 <div className="flex items-center px-4 py-2 border-b border-white relative bg-black">
                     <div className="flex space-x-2">
@@ -30,19 +29,18 @@ function Mainwindow({onToggleDisable, isDisabled}) {
                     <div className='flex flex-col items-center'>
                         <div className='flex flex-row pt-12 gap-5'>
                             <div className='flex flex-col items-center'>
-                                <AboutMe onToggleDisable={onToggleDisable}/>
+                                <AboutMe onToggleDisable={onToggleDisable} onToggleAbout={onToggleAbout}/>
                             </div>
                             <div className='flex flex-col items-center'>
-                                <Projects/>
+                                <Projects onToggleDisable={onToggleDisable}/>
                             </div>
                             <div className='flex flex-col items-center'>
-                                <Links/>
+                                <Links onToggleDisable={onToggleDisable}/>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 
