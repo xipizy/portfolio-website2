@@ -1,9 +1,12 @@
 'use client';
 import Image from 'next/image';
 
-function Links({onToggleDisable}) {
+function Links({onToggleDisable, onToggleLinks}) {
     return(
-        <button className="cursor-pointer" onClick={onToggleDisable}>
+        <button className="cursor-pointer" onClick={() => {
+            onToggleDisable();
+            onToggleLinks();
+        }}>
             <Image src='/link.png' draggable='false' alt="linksImage" width={120} height={120}/>
             <span className='text-2xl'>Links</span>
         </button>

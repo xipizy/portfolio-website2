@@ -9,7 +9,7 @@
 import AboutMe from '../buttons/AboutMe'
 import Projects from '../buttons/Projects'
 import Links from '../buttons/Links'
-function Mainwindow({onToggleDisable, onToggleAbout, onToggleProjects}) {
+function Mainwindow({onToggleDisable, onToggleAbout, onToggleProjects, onToggleLinks}) {
     return(
             <div className="mockup-browser bg-base-200 border border-white outline-2 rounded-xl w-175 h-150 mx-auto top-90">
                 <div className="flex items-center px-4 py-2 border-b border-white relative bg-black">
@@ -35,7 +35,7 @@ function Mainwindow({onToggleDisable, onToggleAbout, onToggleProjects}) {
                                 <Projects onToggleDisable={onToggleDisable} onToggleProjects={onToggleProjects}/>
                             </div>
                             <div className='flex flex-col items-center'>
-                                <Links onToggleDisable={onToggleDisable}/>
+                                <Links onToggleDisable={onToggleDisable} onToggleLinks={onToggleLinks}/>
                             </div>
                         </div>
                     </div>
