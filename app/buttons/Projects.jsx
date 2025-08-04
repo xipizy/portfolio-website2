@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Projects({onToggleDisable, onToggleProjects}) {
     return(
-        <button className="cursor-pointer" onClick={() => {
+        <button className="cursor-pointer transition-transform duration-200 hover:scale-105" onClick={() => {
             onToggleDisable();
             onToggleProjects();
         }}>

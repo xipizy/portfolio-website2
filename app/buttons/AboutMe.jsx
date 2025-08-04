@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function AboutMe({onToggleDisable, onToggleAbout}) {
     return(
-        <button className="cursor-pointer" onClick={() => {
+        <button className="cursor-pointer transition-transform duration-200 hover:scale-105" onClick={() => {
             onToggleAbout();
             onToggleDisable();
         }}>
