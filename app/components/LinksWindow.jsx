@@ -1,4 +1,5 @@
 import Return from "../buttons/Return"
+import IconCard from "../icon_components/IconCard"
 
 function LinksWindow({onToggleDisable, onToggleAbout}) {
     return(
@@ -14,7 +15,11 @@ function LinksWindow({onToggleDisable, onToggleAbout}) {
 
                 <div className="flex flex-col items-center border-t border-white outline h-150 font-sans">
                     <div>
-                        <h1 className="text-7xl pt-40 font-bold">LINKS</h1>
+                        <h1 className="text-7xl pt-10 font-bold">LINKS</h1>
+                    </div>
+                    <div className="flex flex-row pt-12 gap-30">
+                        <IconCard name="Git Hub" src="/github_dark.png" externalLink="https://github.com/xipizy"/>
+                        <IconCard name="LinkedIn" src="/linkedin_dark.png" externalLink="https://www.linkedin.com/in/eloon-ing-3b5962354"/>
                     </div>
                 </div>
             </div>
