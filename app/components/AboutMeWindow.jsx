@@ -14,7 +14,21 @@ function AboutMeWindow({onToggleDisable, onToggleAbout}) {
 
                 <div className="flex flex-col items-center border-t border-white outline h-150 font-sans">
                     <div>
-                        <h1 className="text-7xl pt-40 font-bold">ABOUT ME</h1>
+                        <h1 className="text-7xl pt-10 font-bold">ABOUT ME</h1>
+                    </div>
+                    <div className="flex pl-7.5 pr-7.5 pt-5 flex-col gap-y-5">
+                        <p className="text-center">Hi! I'm Eloon, a full-time Software Engineering student at the University of Auckland. In my spare time, 
+                            I love working on small personal projects — like this website! I'm into sports, a bit introverted, and I enjoy playing video games. 
+                            Scroll down to check out some of my other interests!
+                        </p>
+                        <h2 className="text-3xl font-bold">EDUCATION</h2>
+                        <div className="flex text-white px-2 gap-x-4 items-start">
+                            <div className="w-1 h-full bg-white rounded-sm"></div>
+                            <div>
+                                <h3 className="text-lg font-semibold">BE(Hons) - Software Engineering</h3>
+                                <p className="text-sm text-gray-400 uppercase tracking-wide">(AUCKLAND 2024-2027)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
