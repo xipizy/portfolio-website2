@@ -1,4 +1,5 @@
 import Return from "../buttons/Return"
+import DevelopmentIcon from "./DevelopmentIcon"
 
 function ProjectsWindow({onToggleDisable, onToggleAbout}) {
     return(
@@ -14,8 +15,25 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
 
                 <div className="flex flex-col items-center border-t border-white outline h-150 font-sans">
                     <div>
-                        <h1 className="text-7xl pt-40 font-bold">PROJECTS</h1>
+                        <div className="flex pl-7.5 pr-7.5 pt-5 flex-col gap-y-3">
+                            <h2 className="text-5xl font-bold">DEVELOPMENT TOOLS</h2>
+                            <div className="flex flex-row text-white px-1 gap-x-2.5 justify-center">
+                                <DevelopmentIcon name="C"/>
+                                <DevelopmentIcon name="HTML/CSS"/>
+                                <DevelopmentIcon name="Java"/>
+                                <DevelopmentIcon name="JavaScript"/>
+                                <DevelopmentIcon name="Matlab"/>
+                            </div>
+                            <div className="flex flex-row text-white px-1 gap-x-2.5 justify-center">
+                                <DevelopmentIcon name="React"/>
+                                <DevelopmentIcon name="Next.js"/>
+                                <DevelopmentIcon name="Tailwind Css"/>
+                                <DevelopmentIcon name="Git"/>
+                                <DevelopmentIcon name="Github"/>
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
     )
