@@ -29,8 +29,19 @@ function AboutMeWindow({onToggleDisable, onToggleAbout}) {
                                 <p className="text-sm text-gray-400 uppercase tracking-wide">(AUCKLAND 2024-2027)</p>
                             </div>
                         </div>
+                        <div className="text-white">
+                            <h2 className="text-lg font-bold tracking-wide mb-2 pt-5">OTHER INTERESTS</h2>
+                            <ul className="list-disc pl-5 space-y-1">
+                                <li>Music, especially drums</li>
+                                <li>Video Games, FPS</li>
+                                <li>Volleyball, Badminton</li>
+                                <li>Investing</li>
+                                <li>Language Learning </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+
             </div>
     )
 }
