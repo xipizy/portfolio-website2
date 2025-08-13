@@ -1,4 +1,5 @@
 import Return from "../buttons/Return"
+import SmallIcon from "../buttons/SmallIcon"
 import DevelopmentIcon from "./DevelopmentIcon"
 
 function ProjectsWindow({onToggleDisable, onToggleAbout}) {
@@ -34,15 +35,18 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                         </div>
                     </div>
                     <div>
-                        <h2 className="flex text-5xl font-bold pt-10 justify-center pb-5">PROJECTS</h2>
+                        <h2 className="flex text-5xl font-bold pt-10 justify-center pb-5 r">PROJECTS</h2>
                         <div className="flex flex-row gap-x-7.5">
-                            <div className="card bg-base-100 w-75 shadow-sm">
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
                             <figure>
                                 <img src="/website2.png" alt="Portfolio Website" />
                             </figure>
                                 <div className="card-body">
-                                    <h2 className="card-title">Portfolio Website</h2>
-                                    <div className="badge badge-secondary">July - August 2025</div>
+                                    <h2 className="card-title">Portfolio Website 2</h2>
+                                    <div className="flex flex-row items-center justify-between">
+                                        <div className="badge badge-secondary">July - August 2025</div>
+                                        <SmallIcon src="/smallGithub.png" externalLink="https://github.com/xipizy/portfolio-website2"/>
+                                    </div>
                                         <p>The website you're looking at right now!</p>
                                         <div className="card-actions justify-end">
                                         <div className="badge badge-outline">React</div>
@@ -53,22 +57,156 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card bg-base-100 w-75 shadow-sm">
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
                                 <figure>
                                     <img
                                     src="/wageCalculator.png"
-                                    alt="Shoes" />
+                                    alt="Wage Calculator" />
                                 </figure>
                                 <div className="card-body">
                                     <h2 className="card-title">Wage Calculator</h2>
-                                    <div className="badge badge-secondary">July 2025</div>
+                                    <div className="flex flex-row items-center justify-between">
+                                        <div className="badge badge-secondary">July 2025</div>
+                                        <SmallIcon src="/smallGithub.png" externalLink="https://github.com/xipizy/WageCalculator"/>
+                                    </div>
                                     <p>Designed an application to calculate wages of employees for Ings Trading LTD. Improved time to complete from 20 minutes (manual) to 10 seconds</p>
                                     <div className="card-actions justify-end">
                                         <div className="badge badge-outline">Java</div>
                                     </div>
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
+
+                        <div className="flex flex-row gap-x-7.5 pt-10">
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
+                                <figure>
+                                    <img
+                                    src="/website.png"
+                                    alt="Website" />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Portfolio Website</h2>
+                                    <div className="flex flex-row items-center justify-between">
+                                        <div className="badge badge-secondary">June - July 2025</div>
+                                        <SmallIcon src="/smallGithub.png" externalLink="https://github.com/xipizy/portfolio-website"/>
+                                    </div>
+                                    <p>Previous portfolio website.</p>
+                                    <div className="card-actions justify-end">
+                                        <div className="badge badge-outline">HTML/CSS</div>
+                                        <div className="badge badge-outline">JavaScript</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
+                                <figure>
+                                    <img
+                                    src="/school.png"
+                                    alt="school" />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Risk Traversal</h2>
+                                    <div className="badge badge-secondary">May 2025</div>
+                                    <p>Implemented a map similar to the board game Risk. The program is designed to find the shortest path between 2 countries (BFS). </p>
+                                    <div className="card-actions justify-end">
+                                        <div className="badge badge-outline">UOA</div>
+                                        <div className="badge badge-outline">Java</div>
+                                    </div>
+                                </div>
+                            </div>        
+                        </div>
+
+                        <div className="flex flex-row gap-x-7.5 pt-10">
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
+                                <figure>
+                                    <img
+                                    src="/school.png"
+                                    alt="school" />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Color Mind</h2>
+                                    <div className="badge badge-secondary">May 2025</div>
+                                    <p>Created a game to play against an AI where you had to guess it's chosen color and it would try to guess yours. Implemented Design patterns such as Factory and Strategy</p>
+                                    <div className="card-actions justify-end">
+                                        <div className="badge badge-outline">Java</div>
+                                        <div className="badge badge-outline">UOA</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
+                                <figure>
+                                    <img
+                                    src="/school.png"
+                                    alt="school" />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Risk Traversal</h2>
+                                    <div className="badge badge-secondary">May 2025</div>
+                                    <p>Implemented a map similar to the board game Risk. The program is designed to find the shortest path between 2 countries (BFS). </p>
+                                    <div className="card-actions justify-end">
+                                        <div className="badge badge-outline">Java</div>
+                                        <div className="badge badge-outline">UOA</div>
+                                    </div>
+                                </div>
+                            </div>        
+                        </div>
+
+                        <div className="flex flex-row gap-x-7.5 pt-10">
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
+                                <figure>
+                                    <img
+                                    src="/weather.png"
+                                    alt="weather" />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Weather App</h2>
+                                    <div className="flex flex-row items-center justify-between">
+                                        <div className="badge badge-secondary">April 2025</div>
+                                        <SmallIcon src="/smallGithub.png" externalLink="https://github.com/xipizy/weather-app"/>
+                                    </div>
+                                    <p>Developed an interactive Weather APP. Leveraged the OpenWeatherMap API to access weather data from all over the world, allowing for accurate and real-time data</p>
+                                    <div className="card-actions justify-end">
+                                        <div className="badge badge-outline">HTML/CSS</div>
+                                        <div className="badge badge-outline">JavaScript</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
+                                <figure>
+                                    <img
+                                    src="/school.png"
+                                    alt="school" />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Operator Management System</h2>
+                                    <div className="badge badge-secondary">March - April 2025</div>
+                                    <p>Implemented methods where users can register operators, activities, collect and display reviews along with the registered operator.
+                                        Created a centralized system for managing multiple Aotearoa New Zealand activity operators, using Java</p>
+                                    <div className="card-actions justify-end">
+                                        <div className="badge badge-outline">Java</div>
+                                        <div className="badge badge-outline">UOA</div>
+                                    </div>
+                                </div>
+                            </div>        
+                        </div>
+
+                        <div className="flex flex-row gap-x-7.5 pt-10">
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
+                                <figure>
+                                    <img
+                                    src="/school.png"
+                                    alt="school" />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Boxed In</h2>
+                                    <div className="badge badge-secondary">October 2024</div>
+                                    <p>Created a similar to the classic game Sokoban. The player controls a person in a 2-dimensional space to move boxes to designated areas</p>
+                                    <div className="card-actions justify-end">
+                                        <div className="badge badge-outline">C</div>
+                                        <div className="badge badge-outline">UOA</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                    
                     </div>
                 </div>
             </div>
