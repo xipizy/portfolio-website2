@@ -47,7 +47,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                         <div className="badge badge-secondary">July - August 2025</div>
                                         <SmallIcon src="/smallGithub.png" externalLink="https://github.com/xipizy/portfolio-website2"/>
                                     </div>
-                                        <p>The website you're looking at right now!</p>
+                                        <p>The website you're looking at right now! Planning to add SFX soon!</p>
                                         <div className="card-actions justify-end">
                                         <div className="badge badge-outline">React</div>
                                         <div className="badge badge-outline">Next.js</div>
