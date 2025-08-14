@@ -50,7 +50,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                         <div className="badge badge-secondary">August - Present 2025</div>
                                     </div>
                                         <p>A game where the user must talk to participants in a court hearing to determine if the AI defendant was ethical. All participants are powered by LLMs.
-                                            Uses API calls for LLMs and Text To Speech.
+                                            Uses API calls for LLMs and Text To Speech and prompt engineering.
                                         </p>
                                         <div className="card-actions justify-end">
                                         <div className="badge badge-outline">Java</div>
