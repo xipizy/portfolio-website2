@@ -19,7 +19,6 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                         <div className="flex pl-7.5 pr-7.5 pt-5 flex-col gap-y-3">
                             <h2 className="text-5xl font-bold">DEVELOPMENT TOOLS</h2>
                             <div className="flex flex-row text-white px-1 gap-x-2.5 justify-center">
-                                <DevelopmentIcon name="C"/>
                                 <DevelopmentIcon name="HTML/CSS"/>
                                 <DevelopmentIcon name="Java"/>
                                 <DevelopmentIcon name="JavaScript"/>
@@ -32,11 +31,35 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                 <DevelopmentIcon name="Git"/>
                                 <DevelopmentIcon name="Github"/>
                             </div>
+                            <div className="flex flex-row text-white px-1 gap-x-2.5 justify-center">
+                                <DevelopmentIcon name="JavaFX"/>
+                                <DevelopmentIcon name="SceneBuilder"/>
+                            </div>
                         </div>
                     </div>
                     <div>
                         <h2 className="flex text-5xl font-bold pt-10 justify-center pb-5 r">PROJECTS</h2>
-                        <div className="flex flex-row gap-x-7.5">
+                        <div className="flex flex-row flex-wrap gap-y-7.5 gap-x-7.5 justify-center">
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
+                            <figure>
+                                <img src="/trialAi.png" alt="Trial AI" />
+                            </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Trial AI</h2>
+                                    <div className="flex flex-row items-center justify-between">
+                                        <div className="badge badge-secondary">August - Present 2025</div>
+                                    </div>
+                                        <p>A game where the user must talk to participants in a court hearing to determine if the AI defendant was ethical. All participants are powered by LLMs.
+                                            Uses API calls for LLMs and Text To Speech.
+                                        </p>
+                                        <div className="card-actions justify-end">
+                                        <div className="badge badge-outline">Java</div>
+                                        <div className="badge badge-outline">SceneBuilder</div>
+                                        <div className="badge badge-outline">JavaFX</div>
+                                        <div className="badge badge-outline">UOA</div>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
                             <figure>
                                 <img src="/website2.png" alt="Portfolio Website" />
@@ -75,9 +98,6 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div className="flex flex-row gap-x-7.5 pt-10">
                             <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
                                 <figure>
                                     <img
@@ -112,10 +132,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                         <div className="badge badge-outline">Java</div>
                                     </div>
                                 </div>
-                            </div>        
-                        </div>
-
-                        <div className="flex flex-row gap-x-7.5 pt-10">
+                            </div>
                             <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
                                 <figure>
                                     <img
@@ -147,10 +164,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                         <div className="badge badge-outline">UOA</div>
                                     </div>
                                 </div>
-                            </div>        
-                        </div>
-
-                        <div className="flex flex-row gap-x-7.5 pt-10">
+                            </div>
                             <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
                                 <figure>
                                     <img
@@ -186,10 +200,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                         <div className="badge badge-outline">UOA</div>
                                     </div>
                                 </div>
-                            </div>        
-                        </div>
-
-                        <div className="flex flex-row gap-x-7.5 pt-10">
+                            </div>
                             <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
                                 <figure>
                                     <img
@@ -205,7 +216,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                         <div className="badge badge-outline">UOA</div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>             
                         </div>                    
                     </div>
                 </div>
