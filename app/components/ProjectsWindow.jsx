@@ -34,6 +34,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                             <div className="flex flex-row text-white px-1 gap-x-2.5 justify-center">
                                 <DevelopmentIcon name="JavaFX"/>
                                 <DevelopmentIcon name="SceneBuilder"/>
+                                <DevelopmentIcon name="C"/>
                             </div>
                         </div>
                     </div>
