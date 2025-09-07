@@ -18,7 +18,7 @@ function AboutMeWindow({onToggleDisable, onToggleAbout}) {
                     </div>
                     <div className="flex pl-7.5 pr-7.5 pt-5 flex-col gap-y-3">
                         <p className="text-center">Hi! I'm Eloon, a full-time Software Engineering student at the University of Auckland. In my spare time, 
-                            I love working on small personal projects — like this website! I'm into sports, jazz enjoyer, and I playing video games. 
+                            I love working on small personal projects — like this website! I'm into sports, jazz enjoyer, and playing video games. 
                             Scroll down to check out some of my other interests!
                         </p>
                         <h2 className="text-3xl font-bold">EDUCATION</h2>
