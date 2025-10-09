@@ -43,12 +43,32 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                         <div className="flex flex-row flex-wrap gap-y-7.5 gap-x-7.5 justify-center">
                             <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
                             <figure>
+                                <img src="/development.png" alt="Trial AI" />
+                            </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Auto Mailer</h2>
+                                    <div className="flex flex-row items-center justify-between">
+                                        <div className="badge badge-secondary">October - Present 2025</div>
+                                    </div>
+                                        <p>A tool that takes in PDFs and extracts meta data. Using the meta data, it sends out automated emails with the PDF attached to the correct recipients. 
+                                            This tool is developed for INGS TRADING LTD.
+                                        </p>
+                                        <div className="card-actions justify-end">
+                                        <div className="badge badge-outline">Java</div>
+                                        <div className="badge badge-outline">Spring Boot</div>
+                                        <div className="badge badge-outline">React</div>
+                                        <div className="badge badge-outline">Tailwind CSS</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
+                            <figure>
                                 <img src="/trialAi.png" alt="Trial AI" />
                             </figure>
                                 <div className="card-body">
                                     <h2 className="card-title">Trial AI</h2>
                                     <div className="flex flex-row items-center justify-between">
-                                        <div className="badge badge-secondary">August - Present 2025</div>
+                                        <div className="badge badge-secondary">August - October 2025</div>
                                     </div>
                                         <p>A game where the user must talk to participants in a court hearing to determine if the AI defendant was ethical. All participants are powered by LLMs.
                                             Uses API calls for LLMs and Text To Speech and prompt engineering.
@@ -77,7 +97,6 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                         <div className="badge badge-outline">Next.js</div>
                                         <div className="badge badge-outline">Daisy UI</div>
                                         <div className="badge badge-outline">Tailwind CSS</div>
-                                        <div className="badge badge-outline">HTML/CSS</div>
                                     </div>
                                 </div>
                             </div>
@@ -153,22 +172,6 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                             <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
                                 <figure>
                                     <img
-                                    src="/school.png"
-                                    alt="school" />
-                                </figure>
-                                <div className="card-body">
-                                    <h2 className="card-title">Risk Traversal</h2>
-                                    <div className="badge badge-secondary">May 2025</div>
-                                    <p>Implemented a map similar to the board game Risk. The program is designed to find the shortest path between 2 countries (BFS). </p>
-                                    <div className="card-actions justify-end">
-                                        <div className="badge badge-outline">Java</div>
-                                        <div className="badge badge-outline">UOA</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
-                                <figure>
-                                    <img
                                     src="/weather.png"
                                     alt="weather" />
                                 </figure>
@@ -182,39 +185,6 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                     <div className="card-actions justify-end">
                                         <div className="badge badge-outline">HTML/CSS</div>
                                         <div className="badge badge-outline">JavaScript</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
-                                <figure>
-                                    <img
-                                    src="/school.png"
-                                    alt="school" />
-                                </figure>
-                                <div className="card-body">
-                                    <h2 className="card-title">Operator Management System</h2>
-                                    <div className="badge badge-secondary">March - April 2025</div>
-                                    <p>Implemented methods where users can register operators, activities, collect and display reviews along with the registered operator.
-                                        Created a centralized system for managing multiple Aotearoa New Zealand activity operators, using Java</p>
-                                    <div className="card-actions justify-end">
-                                        <div className="badge badge-outline">Java</div>
-                                        <div className="badge badge-outline">UOA</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
-                                <figure>
-                                    <img
-                                    src="/school.png"
-                                    alt="school" />
-                                </figure>
-                                <div className="card-body">
-                                    <h2 className="card-title">Boxed In</h2>
-                                    <div className="badge badge-secondary">October 2024</div>
-                                    <p>Created a similar to the classic game Sokoban. The player controls a person in a 2-dimensional space to move boxes to designated areas</p>
-                                    <div className="card-actions justify-end">
-                                        <div className="badge badge-outline">C</div>
-                                        <div className="badge badge-outline">UOA</div>
                                     </div>
                                 </div>
                             </div>             
