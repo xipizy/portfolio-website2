@@ -50,14 +50,17 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                     <div className="flex flex-row items-center justify-between">
                                         <div className="badge badge-secondary">October - Present 2025</div>
                                     </div>
-                                        <p>A tool that takes in PDFs and extracts metadata. Using the metadata, it sends out automated emails with the PDF attached to the correct recipients. 
+                                        <p>A tool that takes in PDFs and extracts metadata using OpenAI. Using the metadata, it sends out automated emails with the PDF attached to the correct recipients. 
                                             This tool is developed for INGS TRADING LTD.
                                         </p>
                                         <div className="card-actions justify-end">
-                                        <div className="badge badge-outline">Java</div>
-                                        <div className="badge badge-outline">Spring Boot</div>
                                         <div className="badge badge-outline">React</div>
                                         <div className="badge badge-outline">Tailwind CSS</div>
+                                        <div className="badge badge-outline">Java</div>
+                                        <div className="badge badge-outline">Spring Boot</div>
+                                        <div className="badge badge-outline">PostgreSQL</div>
+                                        <div className="badge badge-outline">Docker</div>
+                                        <div className="badge badge-outline">OpenAI</div>
                                     </div>
                                 </div>
                             </div>
