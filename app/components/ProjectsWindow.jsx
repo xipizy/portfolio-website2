@@ -43,15 +43,15 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                         <div className="flex flex-row flex-wrap gap-y-7.5 gap-x-7.5 justify-center">
                             <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
                             <figure>
-                                <img src="/development.png" alt="Trial AI" />
+                                <img src="/auto-mailer.png" alt="Auto Mailer" />
                             </figure>
                                 <div className="card-body">
                                     <h2 className="card-title">Auto Mailer</h2>
                                     <div className="flex flex-row items-center justify-between">
-                                        <div className="badge badge-secondary">October - Present 2025</div>
+                                        <div className="badge badge-secondary">October - November 2025</div>
                                     </div>
-                                        <p>A tool that takes in PDFs and extracts metadata using OpenAI. Using the metadata, it sends out automated emails with the PDF attached to the correct recipients. 
-                                            This tool is developed for INGS TRADING LTD.
+                                        <p>A Full Stack application that takes in PDFs and extracts metadata using Gemini AI. Using the metadata, it sends out automated emails with the PDF attached to the correct recipients. 
+                                            The app is then packaged into a Docker container for easy deployment. Tool is desgined for Ings Trading LTD to automate their invoice emailing process.
                                         </p>
                                         <div className="card-actions justify-end">
                                         <div className="badge badge-outline">React</div>
@@ -60,7 +60,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                         <div className="badge badge-outline">Spring Boot</div>
                                         <div className="badge badge-outline">PostgreSQL</div>
                                         <div className="badge badge-outline">Docker</div>
-                                        <div className="badge badge-outline">OpenAI</div>
+                                        <div className="badge badge-outline">Gemini AI</div>
                                     </div>
                                 </div>
                             </div>
