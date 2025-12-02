@@ -49,6 +49,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                     <h2 className="card-title">Auto Mailer</h2>
                                     <div className="flex flex-row items-center justify-between">
                                         <div className="badge badge-secondary">October - November 2025</div>
+                                        <SmallIcon src="/smallYoutube" externalLink="https://youtu.be/HiO5LbWuFfM"/>
                                     </div>
                                         <p>A Full Stack application that takes in PDFs and extracts metadata using Gemini AI. Using the metadata, it sends out automated emails with the PDF attached to the correct recipients. 
                                             The app is then packaged into a Docker container for easy deployment. Tool is desgined for Ings Trading LTD to automate their invoice emailing process.
