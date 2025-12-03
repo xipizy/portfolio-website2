@@ -48,7 +48,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                 <div className="card-body">
                                     <h2 className="card-title">Auto Mailer</h2>
                                     <div className="flex flex-row items-center justify-between">
-                                        <div className="badge badge-secondary">October - November 2025</div>
+                                        <div className="badge badge-secondary">Oct - Nov 2025</div>
                                         <SmallIcon src="/smallYoutube.png" externalLink="https://youtu.be/HiO5LbWuFfM"/>
                                         <SmallIcon src="/smallGithub.png" externalLink="https://github.com/xipizy/auto-mailer-frontend"/>
                                         <SmallIcon src="/smallGithub.png" externalLink="https://github.com/xipizy/auto-mailer-backend"/>
