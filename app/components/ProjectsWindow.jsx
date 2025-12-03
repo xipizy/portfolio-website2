@@ -50,9 +50,11 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                     <div className="flex flex-row items-center justify-between">
                                         <div className="badge badge-secondary">October - November 2025</div>
                                         <SmallIcon src="/smallYoutube.png" externalLink="https://youtu.be/HiO5LbWuFfM"/>
+                                        <SmallIcon src="/smallGithub.png" externalLink="https://github.com/xipizy/auto-mailer-frontend"/>
+                                        <SmallIcon src="/smallGithub.png" externalLink="https://github.com/xipizy/auto-mailer-backend"/>
                                     </div>
                                         <p>A Full Stack application that takes in PDFs and extracts metadata using Gemini AI. Using the metadata, it sends out automated emails with the PDF attached to the correct recipients. 
-                                            The app is then packaged into a Docker container for easy deployment. Tool is desgined for Ings Trading LTD to automate their invoice emailing process.
+                                            The app is then packaged into a Docker container for easy deployment. Built using REST APIs. Tool is designed for Ings Trading LTD to automate their invoice emailing process.
                                         </p>
                                         <div className="card-actions justify-end">
                                         <div className="badge badge-outline">React</div>
