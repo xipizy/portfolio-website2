@@ -4,7 +4,8 @@ import DevelopmentIcon from "./DevelopmentIcon"
 
 function ProjectsWindow({onToggleDisable, onToggleAbout}) {
     return(
-            <div className="mockup-browser bg-base-200 border border-white outline-2 rounded-xl w-175 h-150 mx-auto top-[27vh] overflow-auto scrollbar-hide ">
+        <div className="min-h-screen flex justify-center items-center">
+            <div className="mockup-browser bg-base-200 border border-white outline-2 rounded-xl w-175 h-150 mx-auto overflow-auto scrollbar-hide z-2">
                 <div className="flex items-center px-4 py-2 border-b-3 border-white sticky top-0 z-10 bg-black">
                     <div className="flex space-x-2">
                         <Return onToggleDisable={onToggleDisable} onToggleUniversal={onToggleAbout}/>
@@ -159,7 +160,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl bottom ">
                                 <figure>
                                     <img
                                     src="/school.png"
@@ -175,6 +176,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
                                 <figure>
                                     <img
@@ -193,11 +195,14 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                         <div className="badge badge-outline">JavaScript</div>
                                     </div>
                                 </div>
-                            </div>             
+                            </div>
+                            {/* Space adder */}
+                            <div className="h-0 w-full"/>
                         </div>                    
                     </div>
                 </div>
             </div>
+        </div>
     )
 }
 

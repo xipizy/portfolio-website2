@@ -1,4 +1,5 @@
 'use client';
+import Background from "../components/Background";
 import AboutMeWindow from "./AboutMeWindow";
 import MainWindow from "./Mainwindow";
 import ProjectsWindow from "./ProjectsWindow";
@@ -31,6 +32,9 @@ function CardManager() {
 
     return(
         <div >
+            <div className="absolute inset-0 z-1">
+                <Background/>
+            </div>
             {mainWindowDisabled ? null : <MainWindow
                                             onToggleDisable={updateMainWindow}
                                             onToggleAbout={updateAboutMeWindow}
