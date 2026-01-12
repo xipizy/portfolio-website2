@@ -4,7 +4,7 @@ import DevelopmentIcon from "./DevelopmentIcon"
 
 function ProjectsWindow({onToggleDisable, onToggleAbout}) {
     return(
-            <div className="mockup-browser bg-base-200 border border-white outline-2 rounded-xl w-175 h-150 mx-auto top-90 overflow-auto scrollbar-hide ">
+            <div className="mockup-browser bg-base-200 border border-white outline-2 rounded-xl w-175 h-150 mx-auto top-[27vh] overflow-auto scrollbar-hide ">
                 <div className="flex items-center px-4 py-2 border-b-3 border-white sticky top-0 z-10 bg-black">
                     <div className="flex space-x-2">
                         <Return onToggleDisable={onToggleDisable} onToggleUniversal={onToggleAbout}/>

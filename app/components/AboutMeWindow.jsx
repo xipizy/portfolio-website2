@@ -2,7 +2,7 @@ import Return from "../buttons/Return"
 
 function AboutMeWindow({onToggleDisable, onToggleAbout}) {
     return(
-            <div className="mockup-browser bg-base-200 border border-white outline-2 rounded-xl w-175 h-150 mx-auto top-90">
+            <div className="mockup-browser bg-base-200 border border-white outline-2 rounded-xl w-175 h-150 mx-auto top-[27vh]">
                 <div className="flex items-center px-4 py-2 border-b border-white relative bg-black">
                     <div className="flex space-x-2">
                         <Return onToggleDisable={onToggleDisable} onToggleUniversal={onToggleAbout}/>
