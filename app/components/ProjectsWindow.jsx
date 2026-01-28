@@ -54,7 +54,7 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                                         <SmallIcon src="/globe.png" externalLink="https://www.ings.co.nz"/>
                                     </div>
                                         <p>Solely responsible for building a custom business website for ING'S TRADING LTD to showcase their stores and services, delivering a professional online presence that met all business requirements.</p>
-                                        <p>Independently handled end-to-end project delivery from development through production deployment, including client communication, website development, and hosting management.</p>
+                                        <p>Independently handled end-to-end project delivery from development to deployment, including client communication, website development, and hosting management.</p>
                                         <div className="card-actions justify-end">
                                         <div className="badge badge-outline">React</div>
                                         <div className="badge badge-outline">Tailwind CSS</div>
