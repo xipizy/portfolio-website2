@@ -1,6 +1,7 @@
 import Return from "../buttons/Return"
 import SmallIcon from "../buttons/SmallIcon"
 import DevelopmentIcon from "./DevelopmentIcon"
+import { Globe } from 'lucide-react';
 
 function ProjectsWindow({onToggleDisable, onToggleAbout}) {
     return(
@@ -42,6 +43,25 @@ function ProjectsWindow({onToggleDisable, onToggleAbout}) {
                     <div>
                         <h2 className="flex text-5xl font-bold pt-10 justify-center pb-5 r">PROJECTS</h2>
                         <div className="flex flex-row flex-wrap gap-y-7.5 gap-x-7.5 justify-center">
+                            <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
+                            <figure>
+                                <img src="/ings.png" alt="Ings Trading LTD Website" />
+                            </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Ings Trading LTD Website</h2>
+                                    <div className="flex flex-row items-center justify-between">
+                                        <div className="badge badge-secondary">Jan 2026</div>
+                                        <SmallIcon src="/globe.png" externalLink="https://www.ings.co.nz"/>
+                                    </div>
+                                        <p>Solely responsible for building a custom business website for ING'S TRADING LTD to showcase their stores and services, delivering a professional online presence that met all business requirements.</p>
+                                        <p>Independently handled end-to-end project delivery from development through production deployment, including client communication, website development, and hosting management.</p>
+                                        <div className="card-actions justify-end">
+                                        <div className="badge badge-outline">React</div>
+                                        <div className="badge badge-outline">Tailwind CSS</div>
+                                        <div className="badge badge-outline">JS</div>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="card bg-base-100 w-75 shadow-sm border-2 rounded-2xl">
                             <figure>
                                 <img src="/auto-mailer.png" alt="Auto Mailer" />
